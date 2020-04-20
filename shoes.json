@@ -1,0 +1,86 @@
+{
+  "shoes": [
+    {
+      "id": "205453",
+      "name": "Classic Tie-Dye Graphic Clog",
+      "desc": "Original. Versatile. Comfortable.Timeless, fun and full of peaceful good vibes, the bright pops of tie-dye graphics on these clogs are the perfect way to make a groovy style statement. On the go or just hangin’ out. Grounded in comfort, spiked with personality for all ages. From downtime to downtown, these are ready to rock wherever you choose to roll.",
+      "price": 44.99,
+      "colors": {
+        "Multi": ["#000000"],
+        "White / Multi": ["#000000", "#FFFFFF"]
+      },
+      "sizes": [4, 5, 6, 7, 8, 9, 10, 11, 12, 13],
+      "details": [
+        "Incredibly light and fun to wear",
+        "Water-friendly and buoyant; weighs only ounces",
+        "Ventilation ports add breathability and help shed water and debris",
+        "Easy to clean and quick to dry",
+        "Pivoting heel straps for a more secure fit",
+        "Customizable with Jibbitz™ charms",
+        "Iconic Crocs Comfort™: Lightweight. Flexible. 360-degree comfort."
+      ]
+    },
+    {
+      "id": "10001",
+      "name": "Classic Clog",
+      "desc": "Original. Versatile. Comfortable.It’s the iconic clog that started a comfort revolution around the world! The irreverent go-to comfort shoe that you’re sure to fall deeper in love with day after day. Crocs Classic Clogs offer lightweight Iconic Crocs Comfort™, a color for every personality, and an ongoing invitation to be comfortable in your own shoes.",
+      "price": 44.99,
+      "colors": {
+        "Slate Grey": ["#4C4C4C"],
+        "Chocolate": ["#755F4A"],
+        "Army Green": ["#74794E"],
+        "Pool Blue": ["#7BD1D6"],
+        "Blossom": ["#EA9EBC"],
+        "White": ["#FFFFFF"]
+      },
+      "sizes": [4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17],
+      "details": [
+        "Incredibly light and fun to wear",
+        "Water-friendly and buoyant; weighs only ounces",
+        "Ventilation ports add breathability and help shed water and debris",
+        "Easy to clean and quick to dry",
+        "Pivoting heel straps for a more secure fit",
+        "Customizable with Jibbitz™ charms",
+        "Iconic Crocs Comfort™: Lightweight. Flexible. 360-degree comfort."
+      ]
+    },
+    {
+      "id": "205392",
+      "name": "Bayaband Slide",
+      "desc": "Confidently Comfortable. What happens when you combine two of Crocs’ most iconic silhouettes, the Baya and the Crocband™, into one special pair? You get the Bayaband Slide, a style that takes the fashion-athletic spirit of the originals to another level. The result is a go-anywhere style staple that lets you slide in and stay cool while throwing off an extra pop of Crocs spirit. And of course, molded Croslite™ construction means you’ll stay comfortable all day long.",
+      "price": 34.99,
+      "colors": {
+        "Charcoal / Volt Green": ["#494E4A", "#7ABE43"],
+        "Ice Blue / Melon": ["#9BD3C8", "#F7AB9B"],
+        "Black / White": ["#000000", "#FFFFFF"],
+        "Navy / Pepper": ["#242D36", "#B1262B"]
+      },
+      "sizes": [4, 5, 6, 7, 8, 9, 10, 11, 12, 13],
+      "details": [
+        "Incredibly light and fun to wear",
+        "Easy to clean and quick to dry",
+        "Croslite™ foam construction for support and cushioning",
+        "Customizable with Jibbitz™ charms",
+        "Iconic Crocs Comfort™: Lightweight. Flexible. 360-degree comfort."
+      ]
+    },
+    {
+      "type": "Loafers",
+      "id": "206074",
+      "name": "Men's Santa Cruz Downtime Slip-On",
+      "desc": "Keep It Casual. What do you do in your downtime? Whatever it is, you’ll need a reliable, comfortable pair of loafers to help you enjoy your time to the fullest. But this slip-on isn’t just for your time off — you’ll love it for everything from casual days in the office to your next weekend getaway. Built on a Croslite™ material sole with woven canvas uppers, the Men's Santa Cruz Downtime Slip-On is lightweight and offers all of the comfort you expect from Crocs.",
+      "price": 54.99,
+      "colors": {
+        "Tan / Tan": ["#CC9571", "#CC9571"],
+        "Ice Blue / Melon": ["#242D36", "#CBCEBB"]
+      },
+      "sizes": [7, 8, 9, 10, 11, 13, 14, 15],
+      "details": [
+        "Woven canvas uppers offer lightweight comfort",
+        "Elastic goring along the sides for easy on and off",
+        "Croslite™ material outsoles and insoles for a custom, form-to-foot fit",
+        "Dual Crocs Comfort™: Blissfully supportive. Soft. Cradling comfort."
+      ]
+    }
+  ]
+}
