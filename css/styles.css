@@ -76,7 +76,7 @@ body.products {
   background-color: lightskyblue;
   font-family: "Open Sans Condensed", sans-serif;
 }
-.card a {
+.products a {
   text-decoration: none;
 }
 .card {
