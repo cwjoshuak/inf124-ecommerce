@@ -1,3 +1,75 @@
 h1 {
   font-family: "AG Book Rounded";
 }
+html,
+body {
+  /* background: #5c746a;
+  background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAICAYAAADED76LAAAAIElEQVQoU2NcWuD6v2nfFwZcgFFdz/I/TlkGBobhoQAAGHYPccmxFlIAAAAASUVORK5CYII=)
+    repeat; */
+  height: 100%;
+  font-family: "Open Sans Condensed", sans-serif;
+}
+a {
+  text-decoration: none;
+}
+.card {
+  font-size: 1.15em;
+  width: 350px;
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 1px 2px 3px 1px rgba(0, 0, 0, 0.2),
+    1px 4px 4px 1px rgba(0, 0, 0, 0.19);
+  color: black;
+  text-align: center;
+  font-weight: 700;
+}
+.card .title {
+  font-size: 1.27em;
+  padding: 10px;
+}
+.card img {
+  width: 160px;
+  height: 134px;
+  padding: 20px;
+}
+
+.card .price {
+  display: block;
+}
+
+.colors {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 5px;
+}
+.colors .circle {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  border: 2px double gray;
+  display: flex;
+  flex-direction: column;
+  margin: 3px;
+}
+
+.colors .circle-active {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  border: 2px double gray;
+  display: flex;
+  flex-direction: column;
+  margin: 3px;
+}
+
+table {
+  border-spacing: 20px;
+}
+
+.container {
+  height: 100%;
+  width: 100%;
+}
+.half {
+}
