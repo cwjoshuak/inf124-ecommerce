@@ -5,7 +5,7 @@
 ```
 Members:
 Joshua Kuan (52594796)
-Garry Fanata ()
+Garry Fanata (39583521)
 ```
 
 We are group 13, our project is hosted on circinus-13.
