@@ -29,12 +29,12 @@
 }
 
 .description {
-  font-family: "AG Book Rounded";
+  font-family: "Open Sans Condensed", sans-serif;
   font-size: 1.5rem;
   color: black;
   padding-top: 20px;
   max-width: 60vw;
-  letter-spacing: 2px;
+  font-weight: bold;
   display: inline-block;
 }
 
@@ -64,6 +64,51 @@ a.button1:hover {
     margin: 0.4em auto;
   }
 }
+
+.aboutus {
+  text-align: center;
+}
+
+.aboutheading {
+  font-family: "AG Book Rounded";
+  font-size: 6rem;
+  color: #7acf52;
+  text-align: center;
+  padding-bottom: 1px;
+  margin-top: 35px;
+  text-shadow: 3px 3px black;
+}
+
+.pictures {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+.pictures img {
+  margin-left: 5vw;
+  margin-right: 5vw;
+  max-width: 20vw;
+  border-radius: 50%;
+  display: inline-block;
+  margin-bottom: -10px;
+  box-shadow: 0 5px 15px 0 #7acf52;
+}
+
+.pictures h1 {
+  font-family: "Open Sans Condensed", sans-serif;
+  font-size: 2em;
+  font-weight: bold;
+  padding-top: -15px;
+}
+
+.pictures h2 {
+  font-family: "Open Sans Condensed", sans-serif;
+  font-size: 1em;
+  font-weight: bold;
+  margin-top: -15px;
+}
+
 html,
 body {
   /* background: #5c746a;
