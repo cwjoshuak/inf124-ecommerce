@@ -241,14 +241,11 @@ th {
 .product-right {
   flex: 1;
   width: auto;
-  justify-content: center;
   margin: 10px;
   padding: 10px;
   margin-top: 40px;
   margin-bottom: 40px;
   min-width: 450px;
-  /* box-shadow: 2px 4px 4px 2px rgba(0, 0, 0, 0.2),
-    1px 4px 4px 1px rgba(0, 0, 0, 0.19); */
 }
 
 .product-left {
@@ -263,7 +260,7 @@ th {
 }
 
 .product .selector img.active {
-  border: dashed thin;
+  border: solid blue;
 }
 
 .product img.main {
@@ -272,6 +269,8 @@ th {
   margin: 20px;
   box-shadow: 5px 7px 7px 5px rgba(0, 0, 0, 0.2),
     1px 4px 4px 1px rgba(0, 0, 0, 0.19);
+  padding: 10px;
+  background-color: white;
   transition: transform 0.3s;
 }
 
@@ -279,7 +278,7 @@ th {
   transform: scale(1.5);
 }
 
-.product .selector {
+.product .selector.center {
   justify-content: center;
   display: flex;
   align-items: center;
@@ -287,15 +286,17 @@ th {
 .product .selector img {
   width: 100px;
   height: 85px;
-  border: solid thin;
+  border: solid gray;
   margin-left: 10px;
+  padding: 5px;
+  background-color: white;
   transition: transform 0.3s;
 }
 
 .product .selector img:hover {
   transform: scale(1.1);
 }
-.product .detail-title {
+.product .bold {
   font-weight: 700;
   display: inline;
 }
@@ -316,4 +317,87 @@ th {
   margin-bottom: 10px;
   font-size: 1.8em;
   letter-spacing: 0.02em;
+}
+.product-right img.small {
+  width: 60px;
+  height: 40px;
+  border: solid gray;
+}
+.product-right .color-text,
+.product-right .size-text {
+  margin-right: 5px;
+}
+.product-right .size-selector {
+  display: flex;
+  align-items: left;
+}
+.product-right .size {
+  border: solid gray;
+  padding: 10px;
+  background-color: white;
+  width: 10px;
+  height: 10px;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  margin-left: 10px;
+}
+
+.product-right .size.active {
+  border: solid blue;
+}
+
+/* Below code was adapted from MDN's Your First Form 
+https://developer.mozilla.org/en-US/docs/Learn/Forms/Your_first_form*/
+.order-form {
+  margin: 0 auto;
+  width: 90%;
+  padding: 1em;
+  border: 1px solid #ccc;
+  border-radius: 1em;
+}
+
+form ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+form li + li {
+  margin-top: 0.3em;
+  margin-bottom: 0.3em;
+}
+
+form label {
+  display: inline-block;
+  width: 190px;
+  text-align: right;
+}
+
+form input,
+form textarea {
+  font: 1em sans-serif;
+  width: 300px;
+  box-sizing: border-box;
+  border: 1px solid #999;
+  padding: 5px;
+}
+
+form input:focus,
+form textarea:focus {
+  border-color: #000;
+}
+
+form textarea {
+  vertical-align: top;
+  height: 5em;
+}
+
+form .button {
+  padding-left: 190px;
+}
+
+form button {
+  margin-left: 0.5em;
 }
