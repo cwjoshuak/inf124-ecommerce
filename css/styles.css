@@ -36,12 +36,12 @@ body {
 }
 
 .description {
-  font-family: "AG Book Rounded";
+  font-family: "Open Sans Condensed", sans-serif;
   font-size: 1.5rem;
   color: black;
   padding-top: 20px;
   max-width: 60vw;
-  letter-spacing: 2px;
+  font-weight: bold;
   display: inline-block;
 }
 
@@ -55,6 +55,7 @@ a.button1 {
   text-decoration: none;
   font-family: "Roboto", sans-serif;
   font-weight: 300;
+  font-size: 1.2em;
   color: #ffffff;
   text-align: center;
   font-weight: bold;
@@ -70,6 +71,59 @@ a.button1:hover {
     display: block;
     margin: 0.4em auto;
   }
+}
+
+.aboutus {
+  text-align: center;
+}
+
+.aboutheading {
+  font-family: "AG Book Rounded";
+  font-size: 6rem;
+  color: #7acf52;
+  text-align: center;
+  padding-bottom: 1px;
+  margin-top: 35px;
+  text-shadow: 3px 3px black;
+}
+
+.pictures {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+.pictures img {
+  margin-left: 5vw;
+  margin-right: 5vw;
+  max-width: 20vw;
+  border-radius: 50%;
+  display: inline-block;
+  margin-bottom: -10px;
+  box-shadow: 0 5px 15px 0 black;
+}
+
+.pictures h1 {
+  font-family: "Open Sans Condensed", sans-serif;
+  font-size: 2em;
+  font-weight: bold;
+  padding-top: -15px;
+}
+
+.pictures h2 {
+  font-family: "Open Sans Condensed", sans-serif;
+  font-size: 1em;
+  font-weight: bold;
+  margin-top: -15px;
+  margin-bottom: 25px;
+}
+
+html,
+body {
+  /* background: #5c746a;
+  background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAICAYAAADED76LAAAAIElEQVQoU2NcWuD6v2nfFwZcgFFdz/I/TlkGBobhoQAAGHYPccmxFlIAAAAASUVORK5CYII=)
+    repeat; */
+  height: 100%;
 }
 
 body.products {
@@ -103,6 +157,7 @@ body.products {
 
 .card .price {
   display: block;
+  font-size: 1.4em;
 }
 
 .colors {
@@ -141,34 +196,89 @@ th {
   text-align: left;
   font-size: 1.7em;
 }
+.products .logo {
+  font-size: 6rem;
+}
+
+.products .logo::first-letter {
+  font-size: 4.2rem;
+}
+
+.products .logo a:visited,
+.products .logo a:link {
+  color: white;
+}
+
+.productheader {
+  background-color: rgb(186, 120, 248);
+}
+
+.productheader .logo {
+  font-size: 6rem;
+}
+
+.productheader .logo::first-letter {
+  font-size: 4.2rem;
+}
+
+.productheader .logo a:visited,
+.productheader .logo a:link {
+  color: white;
+  text-decoration: none;
+}
 
 .product {
   display: flex;
-  max-width: 70%;
-  justify-content: center;
-  display: flex;
-  align-items: center;
-  border: thin dashed;
+  background-color: rgb(186, 120, 248);
+  justify-content: space-around;
+  align-content: center;
+  flex-wrap: wrap;
+  flex-basis: 100%;
+  font-family: "Open Sans Condensed", sans-serif;
 }
 
 .product-left,
 .product-right {
-  max-width: 50%;
-  width: 50%;
+  flex: 1;
+  width: auto;
   justify-content: center;
-  margin: 20px;
+  margin: 10px;
+  padding: 10px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  min-width: 450px;
+  /* box-shadow: 2px 4px 4px 2px rgba(0, 0, 0, 0.2),
+    1px 4px 4px 1px rgba(0, 0, 0, 0.19); */
 }
+
+.product-left {
+  background-color: rgb(201, 146, 253);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.product-right {
+  background-color: rgb(218, 184, 250);
+}
+
 .product .selector img.active {
   border: dashed thin;
 }
+
 .product img.main {
   width: 400px;
   height: 351px;
-  padding: 20px;
-  margin-left: auto;
-  margin-right: auto;
-  display: block;
+  margin: 20px;
+  box-shadow: 5px 7px 7px 5px rgba(0, 0, 0, 0.2),
+    1px 4px 4px 1px rgba(0, 0, 0, 0.19);
+  transition: transform 0.3s;
 }
+
+.product img.main:hover {
+  transform: scale(1.5);
+}
+
 .product .selector {
   justify-content: center;
   display: flex;
@@ -179,8 +289,31 @@ th {
   height: 85px;
   border: solid thin;
   margin-left: 10px;
+  transition: transform 0.3s;
+}
+
+.product .selector img:hover {
+  transform: scale(1.1);
 }
 .product .detail-title {
   font-weight: 700;
   display: inline;
+}
+
+.product-left p::first-line {
+  font-weight: bold;
+}
+
+.product-right h2 {
+  margin-top: 5px;
+  margin-bottom: 0px;
+  font-size: 3em;
+  letter-spacing: 0.02em;
+}
+
+.product-right h4 {
+  margin-top: 5px;
+  margin-bottom: 10px;
+  font-size: 1.8em;
+  letter-spacing: 0.02em;
 }
