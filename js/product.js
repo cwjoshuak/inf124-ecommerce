@@ -22,6 +22,7 @@ console.log(parseQuery(window.location.search));
 function doTheThing(data) {
   console.log(data);
   let shoe = data.filter((i) => i.id === queryParams["id"])[0];
+  document.title = "eCrocs | " + shoe["name"];
 
   let colors = Object.entries(Object.entries(shoe["colors"]));
   let currentColor = colors.filter((i) => i[1][0] === queryParams["color"]);
