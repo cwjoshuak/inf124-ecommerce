@@ -55,6 +55,7 @@ a.button1 {
   text-decoration: none;
   font-family: "Roboto", sans-serif;
   font-weight: 300;
+  font-size: 1.2em;
   color: #ffffff;
   text-align: center;
   font-weight: bold;
@@ -207,6 +208,24 @@ th {
   color: white;
 }
 
+.productheader {
+  background-color: rgb(186, 120, 248);
+}
+
+.productheader .logo {
+  font-size: 6rem;
+}
+
+.productheader .logo::first-letter {
+  font-size: 4.2rem;
+}
+
+.productheader .logo a:visited,
+.productheader .logo a:link {
+  color: white;
+  text-decoration: none;
+}
+
 .product {
   display: flex;
   background-color: rgb(186, 120, 248);
@@ -227,6 +246,8 @@ th {
   margin-top: 40px;
   margin-bottom: 40px;
   min-width: 450px;
+  /* box-shadow: 2px 4px 4px 2px rgba(0, 0, 0, 0.2),
+    1px 4px 4px 1px rgba(0, 0, 0, 0.19); */
 }
 
 .product-left {
@@ -282,20 +303,16 @@ th {
   font-weight: bold;
 }
 
-.productheader {
-  background-color: rgb(186, 120, 248);
+.product-right h2 {
+  margin-top: 5px;
+  margin-bottom: 0px;
+  font-size: 3em;
+  letter-spacing: 0.02em;
 }
 
-.productheader .logo {
-  font-size: 6rem;
-}
-
-.productheader .logo::first-letter {
-  font-size: 4.2rem;
-}
-
-.productheader .logo a:visited,
-.productheader .logo a:link {
-  color: white;
-  text-decoration: none;
+.product-right h4 {
+  margin-top: 5px;
+  margin-bottom: 10px;
+  font-size: 1.8em;
+  letter-spacing: 0.02em;
 }
