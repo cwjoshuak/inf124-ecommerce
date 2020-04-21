@@ -214,10 +214,10 @@ function doTheThing(data) {
     />
   </li>
   <li><label for="state">State</label>
-  <input type="text" id="state" name="state" placeholder="NY" required></li>
+  <input type="text" id="state" name="state" pattern="^((AL)|(AK)|(AS)|(AZ)|(AR)|(CA)|(CO)|(CT)|(DE)|(DC)|(FM)|(FL)|(GA)|(GU)|(HI)|(ID)|(IL)|(IN)|(IA)|(KS)|(KY)|(LA)|(ME)|(MH)|(MD)|(MA)|(MI)|(MN)|(MS)|(MO)|(MT)|(NE)|(NV)|(NH)|(NJ)|(NM)|(NY)|(NC)|(ND)|(MP)|(OH)|(OK)|(OR)|(PW)|(PA)|(PR)|(RI)|(SC)|(SD)|(TN)|(TX)|(UT)|(VT)|(VI)|(VA)|(WA)|(WV)|(WI)|(WY))$" placeholder="NY" required></li>
   <li>
   <li><label for="zip">Zip</label>
-  <input type="text" id="zip" name="zip" placeholder="10001" required></li>
+  <input type="text" id="zip" name="zip" pattern="^\\d{5}(-\\d{4})?$" placeholder="10001" required></li>
     <label for="shipping_method">Shipping Method:</label>
     <select id="shipping-selector">
       <option value="Overnight">Overnight</option>
@@ -250,9 +250,10 @@ function doTheThing(data) {
   <li>
     <label for="expmonth">Exp Month</label>
     <input
-      type="number"
+      type="text"
       id="expmonth"
       name="expmonth"
+      pattern="^((0?[1-9])|(1[0-2]))$"
       placeholder="12"
       required
     />
@@ -260,9 +261,10 @@ function doTheThing(data) {
   <li>
     <label for="expyear">Exp Year</label>
     <input
-      type="number"
+      type="text"
       id="expyear"
       name="expyear"
+      pattern="^20\\d{2}$"
       placeholder="2022"
       required
     />
