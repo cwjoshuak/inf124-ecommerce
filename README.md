@@ -30,4 +30,4 @@ Our site consists of 3 main pages
 8. All form fields are checked with HTML validation, and date fields are checked in JavaScript. An alert is displayed if any of the validation checks fail.
 9. Our website uses more than 10 different stylistic properties of CSS. We have customized background colors, margin, padding, border radius, shadows, container/image sizes, fonts, etc.
 10. We use the CSS:hover property to increase the size of the images when the mouse is over it. We also demonstrate the JavaScript mouseenter, mouseleave events to detect and change images when the user mouses over a different color on the products list page.
-11.
+11. Name and Student ID of group members are in the About Us section of the home page
