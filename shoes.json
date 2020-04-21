@@ -191,6 +191,66 @@
         "Tiny nubs along the footbed give your feet a massage-like feel",
         "Croslite™ material outsole"
       ]
+    },
+    {
+      "type": "Sandals",
+      "id": "206121",
+      "name": "Classic Crocs Slide",
+      "desc1": "Original. Customizable. Comfortable.",
+      "desc2": "The ever-comfortable Classic II Slide gets the customization upgrade fans have been asking for in the Classic Crocs Slide: holes for Jibbitz™ charms! Each slide has room for 13 charms so you can load up your sandals with tons of personality. Original Croslite™ foam cushion will keep you comfortably supported from the beach to backyard gatherings and beyond. Choose your color and slide into a new favorite!",
+      "price": 24.99,
+      "colors": {
+        "White": ["#FFFFFF"],
+        "Lemon": ["#E3CC1A"]
+      },
+      "sizes": [13, 14, 15],
+      "details": [
+        "Incredibly light and fun to wear",
+        "Easy to clean and quick to dry",
+        "Croslite™ foam footbeds for lasting comfort",
+        "Customizable with Jibbitz™ charms",
+        "Iconic Crocs Comfort™: Lightweight. Flexible. 360-degree comfort."
+      ]
+    },
+    {
+      "type": "Sandals",
+      "id": "206242",
+      "name": "Men's Swiftwater™ Wave Flip",
+      "desc1": "Athletic. Adventurous. Amphibious",
+      "desc2": "The Swiftwater™ Collection gets even sleeker with the addition of this new men’s flip: the Wave. Ultralightweight and ready for your favorite water-friendly activities, this sandal features soft straps that feel good from the moment you put them on and a contoured footbed that cradles your foot for those long days out in the sun. A siped outsole provides traction around slick surfaces, so ride the next wave in confidence.",
+      "price": 29.99,
+      "colors": {
+        "Navy / Slate Grey": ["#242D36", "#4C4C4C"],
+        "Expresso / Walnut": ["#1A1815", "#4C4331"],
+        "Black / Slate Grey": ["#000000", "#4C4C4C"]
+      },
+      "sizes": [7, 8, 9, 12],
+      "details": [
+        "Incredibly comfortable and lightweight",
+        "Soft Matlite™ uppers and toe posts feel broken-in from day one",
+        "Durable, siped Croslite™ outsoles channel water away and boost traction",
+        "Iconic Crocs Comfort™: Lightweight. Flexible. 360-degree comfort."
+      ]
+    },
+    {
+      "type": "Sandals",
+      "id": "205701",
+      "name": "Men’s Swiftwater™ Mesh Wave",
+      "desc1": "Athletic. Adventurous. Amphibious",
+      "desc2": "The Swiftwater™ Wave, one of Crocs’ most active, water-friendly styles to date, is now available with stretchy mesh uppers. Siped outsoles channel water away and improve traction, and large ports offer maximum breathability and drainage. Ride the wave. The river. The waterpark. Anywhere you like to make a splash.",
+      "price": 44.99,
+      "colors": {
+        "Walnut / Expresso": ["#4C4331", "#1A1815"],
+        "Navy / Tan": ["#242D36", "#CC9571"]
+      },
+      "sizes": [4, 7, 9, 13],
+      "details": [
+        "Lightweight, all-purpose sandal with mesh upper",
+        "Soft, flexible uppers with ports to shed water and debris",
+        "Outsole with herringbone pattern provides great traction around water",
+        "Croslite™ foam construction won’t absorb water",
+        "Iconic Crocs Comfort™: Lightweight. Flexible. 360-degree comfort."
+      ]
     }
   ]
 }
