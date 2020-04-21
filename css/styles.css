@@ -99,7 +99,7 @@ a.button1:hover {
   border-radius: 50%;
   display: inline-block;
   margin-bottom: -10px;
-  box-shadow: 0 5px 15px 0 #7acf52;
+  box-shadow: 0 5px 15px 0 black;
 }
 
 .pictures h1 {
@@ -210,6 +210,20 @@ th {
   justify-content: center;
   margin: 20px;
 }
+
+.products .logo {
+  font-size: 6rem;
+}
+
+.products .logo::first-letter {
+  font-size: 4.2rem;
+}
+
+.products .logo a:visited,
+.products .logo a:link {
+  color: white;
+}
+
 .product .selector img.active {
   border: dashed thin;
 }
