@@ -4,7 +4,8 @@
       "type": "Clogs",
       "id": "205453",
       "name": "Classic Tie-Dye Graphic Clog",
-      "desc": "Original. Versatile. Comfortable.Timeless, fun and full of peaceful good vibes, the bright pops of tie-dye graphics on these clogs are the perfect way to make a groovy style statement. On the go or just hangin’ out. Grounded in comfort, spiked with personality for all ages. From downtime to downtown, these are ready to rock wherever you choose to roll.",
+      "desc1": "Original. Versatile. Comfortable.",
+      "desc2": "Timeless, fun and full of peaceful good vibes, the bright pops of tie-dye graphics on these clogs are the perfect way to make a groovy style statement. On the go or just hangin’ out. Grounded in comfort, spiked with personality for all ages. From downtime to downtown, these are ready to rock wherever you choose to roll.",
       "price": 44.99,
       "colors": {
         "Multi": ["#000000"],
@@ -25,7 +26,8 @@
       "type": "Clogs",
       "id": "10001",
       "name": "Classic Clog",
-      "desc": "Original. Versatile. Comfortable.It’s the iconic clog that started a comfort revolution around the world! The irreverent go-to comfort shoe that you’re sure to fall deeper in love with day after day. Crocs Classic Clogs offer lightweight Iconic Crocs Comfort™, a color for every personality, and an ongoing invitation to be comfortable in your own shoes.",
+      "desc1": "Original. Versatile. Comfortable.",
+      "desc2": "It’s the iconic clog that started a comfort revolution around the world! The irreverent go-to comfort shoe that you’re sure to fall deeper in love with day after day. Crocs Classic Clogs offer lightweight Iconic Crocs Comfort™, a color for every personality, and an ongoing invitation to be comfortable in your own shoes.",
       "price": 44.99,
       "colors": {
         "Slate Grey": ["#4C4C4C"],
@@ -50,7 +52,8 @@
       "type": "Slides",
       "id": "205392",
       "name": "Bayaband Slide",
-      "desc": "Confidently Comfortable. What happens when you combine two of Crocs’ most iconic silhouettes, the Baya and the Crocband™, into one special pair? You get the Bayaband Slide, a style that takes the fashion-athletic spirit of the originals to another level. The result is a go-anywhere style staple that lets you slide in and stay cool while throwing off an extra pop of Crocs spirit. And of course, molded Croslite™ construction means you’ll stay comfortable all day long.",
+      "desc1": "Confidently Comfortable.",
+      "desc2": "What happens when you combine two of Crocs’ most iconic silhouettes, the Baya and the Crocband™, into one special pair? You get the Bayaband Slide, a style that takes the fashion-athletic spirit of the originals to another level. The result is a go-anywhere style staple that lets you slide in and stay cool while throwing off an extra pop of Crocs spirit. And of course, molded Croslite™ construction means you’ll stay comfortable all day long.",
       "price": 34.99,
       "colors": {
         "Charcoal / Volt Green": ["#494E4A", "#7ABE43"],
@@ -71,7 +74,8 @@
       "type": "Loafers",
       "id": "206074",
       "name": "Men's Santa Cruz Downtime Slip-On",
-      "desc": "Keep It Casual. What do you do in your downtime? Whatever it is, you’ll need a reliable, comfortable pair of loafers to help you enjoy your time to the fullest. But this slip-on isn’t just for your time off — you’ll love it for everything from casual days in the office to your next weekend getaway. Built on a Croslite™ material sole with woven canvas uppers, the Men's Santa Cruz Downtime Slip-On is lightweight and offers all of the comfort you expect from Crocs.",
+      "desc1": "Keep It Casual.",
+      "desc2": "What do you do in your downtime? Whatever it is, you’ll need a reliable, comfortable pair of loafers to help you enjoy your time to the fullest. But this slip-on isn’t just for your time off — you’ll love it for everything from casual days in the office to your next weekend getaway. Built on a Croslite™ material sole with woven canvas uppers, the Men's Santa Cruz Downtime Slip-On is lightweight and offers all of the comfort you expect from Crocs.",
       "price": 54.99,
       "colors": {
         "Tan / Tan": ["#CC9571", "#CC9571"],
@@ -89,7 +93,8 @@
       "type": "Clogs",
       "id": "12132",
       "name": "Classic Realtree® V2",
-      "desc": "Original. Versatile. Comfortable. Wildly comfortable. The Classic Realtree® V2 Clog gives you the signature comfort of Croslite™ material with the rugged style of an authentic Realtree® camouflage print.",
+      "desc1": "Original. Versatile. Comfortable.",
+      "desc2": "Wildly comfortable. The Classic Realtree® V2 Clog gives you the signature comfort of Croslite™ material with the rugged style of an authentic Realtree® camouflage print.",
       "price": 44.99,
       "colors": {
         "Khaki": ["#533E29"]
@@ -108,7 +113,8 @@
       "type": "Slides",
       "id": "206520",
       "name": "Classic Crocs Tie-Dye Graphic Slide",
-      "desc": "Original. Customizable. Comfortable. The ever-comfortable Classic II Slide gets the customization upgrade fans have been asking for in the Classic Crocs Slide: holes for Jibbitz™ charms! Each slide has room for 13 charms so you can load up your sandals with tons of personality. Original Croslite™ foam cushion will keep you comfortably supported from the beach to backyard gatherings and beyond. The bright pops of tie-dye graphics on these slides are the perfect way to make a groovy style statement.",
+      "desc1": "Original. Customizable. Comfortable.",
+      "desc2": "The ever-comfortable Classic II Slide gets the customization upgrade fans have been asking for in the Classic Crocs Slide: holes for Jibbitz™ charms! Each slide has room for 13 charms so you can load up your sandals with tons of personality. Original Croslite™ foam cushion will keep you comfortably supported from the beach to backyard gatherings and beyond. The bright pops of tie-dye graphics on these slides are the perfect way to make a groovy style statement.",
       "price": 29.99,
       "colors": {
         "Multi": ["#904683", "#E1E91A"]
@@ -127,7 +133,8 @@
       "type": "Slides",
       "id": "206535",
       "name": "Classic Crocs American Flag Slide",
-      "desc": "Original. Customizable. Comfortable. The ever-comfortable Classic II Slide gets the customization upgrade fans have been asking for in the Classic Crocs Slide: holes for Jibbitz™ charms! The right slide of this American Flag edition sports the famous stripes, and the left shows off the traditional stars. While loving the USA is a year-round feeling, it’s a good time to consider stocking up for America’s most prideful holidays, including Independence Day, Veterans Day and Memorial Day. Makes a great gift!",
+      "desc1": "Original. Customizable. Comfortable.",
+      "desc2": "The ever-comfortable Classic II Slide gets the customization upgrade fans have been asking for in the Classic Crocs Slide: holes for Jibbitz™ charms! The right slide of this American Flag edition sports the famous stripes, and the left shows off the traditional stars. While loving the USA is a year-round feeling, it’s a good time to consider stocking up for America’s most prideful holidays, including Independence Day, Veterans Day and Memorial Day. Makes a great gift!",
       "price": 29.99,
       "colors": {
         "White / Multi": ["#0084D9", "#F7302D"]
@@ -146,7 +153,8 @@
       "type": "Loafers",
       "id": "206062",
       "name": "Men’s Crocs Reviva™ Canvas Slip-On",
-      "desc": "Relax. Refresh. Revitalize. Reenergize and put more bounce in your days with the versatile, never fussy, always accommodating Crocs Reviva™ Canvas Slip-On for guys. Foot-map engineered to deliver all-day comfort, the removable Crocs Reviva™ footbeds feature bliss-inducing bubbles that massage while you’re on the go. They’re the perfect choice for breezing through your daily routine and weekend escapes. Effortless and revitalizing — Crocs Reviva™ is your first step toward sensational comfort.",
+      "desc1": "Relax. Refresh. Revitalize.",
+      "desc2": "Reenergize and put more bounce in your days with the versatile, never fussy, always accommodating Crocs Reviva™ Canvas Slip-On for guys. Foot-map engineered to deliver all-day comfort, the removable Crocs Reviva™ footbeds feature bliss-inducing bubbles that massage while you’re on the go. They’re the perfect choice for breezing through your daily routine and weekend escapes. Effortless and revitalizing — Crocs Reviva™ is your first step toward sensational comfort.",
       "price": 29.99,
       "colors": {
         "Black / Slate Grey": ["#000000", "#4C4C4C"],
@@ -167,7 +175,8 @@
       "type": "Loafers",
       "id": "204834",
       "name": "Men’s Santa Cruz Convertible Slip-On",
-      "desc": "Keep It Casual. There’s a definite coastal Sunday drive kind of vibe to these slip-ons. They’re even refined enough to wear to the office, though the mood you’ll be stepping into is anything but uptight. With soft and breathable canvas all around, the heels can be folded down for more of a slide experience.",
+      "desc1": "Keep It Casual.",
+      "desc2": "There’s a definite coastal Sunday drive kind of vibe to these slip-ons. They’re even refined enough to wear to the office, though the mood you’ll be stepping into is anything but uptight. With soft and breathable canvas all around, the heels can be folded down for more of a slide experience.",
       "price": 59.99,
       "colors": {
         "Light Grey / Slate Grey": ["#869181", "#4C4C4C"],
