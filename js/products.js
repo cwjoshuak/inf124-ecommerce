@@ -47,7 +47,7 @@ function createTable(data) {
         if (index == 0) {
           anchor.setAttribute(
             "href",
-            "/product.html?id=" + shoe["id"] + "&color=" + key
+            "./product.html?id=" + shoe["id"] + "&color=" + key
           );
         }
         var clr = document.createElement("div");
@@ -66,7 +66,7 @@ function createTable(data) {
           a = document.getElementById("a-" + shoe["id"]);
           a.setAttribute(
             "href",
-            "/product.html?id=" +
+            "./product.html?id=" +
               shoe["id"] +
               "&color=" +
               event.target.attributes.name.value
