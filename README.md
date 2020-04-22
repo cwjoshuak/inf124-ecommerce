@@ -11,6 +11,7 @@ Garry Fanata (39583521)
 We are group 13, our project is hosted on circinus-13.
 
 URL: `http://circinus-13.ics.uci.edu/inf124-proj1/index.html`
+Github Repo: `https://github.com/cwjoshuak/inf124-ecommerce`
 
 Our site consists of 3 main pages
 
