@@ -39,7 +39,7 @@ function doTheThing(data) {
 
   let largeImg = document.createElement("img");
   largeImg.src =
-    "assets/" + queryParams["id"] + "/product_" + currentColor[0][0] + ".jpg";
+    "./assets/" + queryParams["id"] + "/product_" + currentColor[0][0] + ".jpg";
   largeImg.className = "main";
   productLeftDiv.appendChild(largeImg);
 
@@ -47,11 +47,11 @@ function doTheThing(data) {
   selectorDiv.className = "selector center";
   let img1 = document.createElement("img");
   img1.src =
-    "assets/" + queryParams["id"] + "/product_" + currentColor[0][0] + ".jpg";
+    "./assets/" + queryParams["id"] + "/product_" + currentColor[0][0] + ".jpg";
   img1.className = "active";
   let img2 = document.createElement("img");
   img2.src =
-    "assets/" + queryParams["id"] + "/color_" + currentColor[0][0] + ".jpg";
+    "./assets/" + queryParams["id"] + "/color_" + currentColor[0][0] + ".jpg";
 
   img1.addEventListener("click", (event) => {
     let lgImg = document.getElementsByClassName("main")[0];
@@ -116,9 +116,9 @@ function doTheThing(data) {
   colorSelector.className = "selector";
   for (let color of colors) {
     let anc = document.createElement("a");
-    anc.href = "../product.html?id=" + shoe["id"] + "&color=" + color[1][0];
+    anc.href = "./product.html?id=" + shoe["id"] + "&color=" + color[1][0];
     let ancImg = document.createElement("img");
-    ancImg.src = "assets/" + shoe["id"] + "/color_" + color[0] + ".jpg";
+    ancImg.src = "./assets/" + shoe["id"] + "/color_" + color[0] + ".jpg";
 
     ancImg.className = "small";
     if (currentColor[0][1][0] === color[1][0]) ancImg.className += " active";
